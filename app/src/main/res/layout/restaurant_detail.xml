@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="#ddd"
+              android:gravity="center"
+              android:padding="0dp" android:requiresFadingEdge="horizontal|vertical" android:showDividers="middle">
+
+    <ImageView
+            android:id="@+id/restaurant_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
+            android:fitsSystemWindows="true"/>
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/restaurant_detail_name"
+              style="?android:attr/textAppearanceLarge"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="10dp"
+              android:textIsSelectable="true"
+              android:textColor="#5F5F5F"
+              android:textSize="15sp"
+              android:textStyle="bold"
+              tools:context=".RestaurantDetailFragment"/>
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/restaurant_detail_location"
+              style="?android:attr/textAppearanceLarge"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="12dp"
+              android:textIsSelectable="true"
+              android:textColor="#B9B9B9"
+              android:textSize="12sp"
+              android:textStyle="bold"
+              tools:context=".RestaurantDetailFragment"/>
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/restaurant_detail_phone"
+              style="?android:attr/textAppearanceLarge"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:padding="12dp"
+              android:textIsSelectable="true"
+              android:textColor="#B9B9B9"
+              android:textSize="12sp"
+              android:textStyle="bold"
+              tools:context=".RestaurantDetailFragment"/>
+</LinearLayout>
